@@ -1,0 +1,11 @@
+Zadacha 3
+
+1. Izpolzva se determiniran algoritum. Tova oznachava che suobshtenieto "Da" kriptirano s edin i susht key, vinagi dava edni i sushti rezultati. 
+Reshenieto e OAEP dobavq sluchaen element (randomness) kum dannite predi kriptiraneto.
+
+2.Digitalen podpis, heshut na dokumenta se kriptira s private key
+na podatelq. Tui kato samo avtorut pritejava tozi key, nikoi drug ne moje da generira validen podpis sled promqna na faila. Tova garantira ne samo che sudurjanieto e sushtoto, no i che idva ot pravilniq chovek.
+
+3. Vmesto da proverqva dali vsqko chislo dali se deli na drugo, algoritma izpolzva izkluchvane chrez markirane.
+Pochva se purvoto prosto chislo(2) i se markirat vsichki negovi kratni (4,6,8...) Sled tova se vzema sludvashtoto nemarkirano chislo (3) i se markirat negovite kratni(6,9,12...), procesa produljava dokato ostanat samo nemarkiranite chisla-te sa prosti.
+Cqlata operaciq e prosto subirane i broene.
